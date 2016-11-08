@@ -1,0 +1,47 @@
+{
+  "name": "kyt-starter-vue-universal",
+  "description": "A universal vue starter kyt",
+  "author": "Web Frameworks, NYTimes",
+  "scripts": {
+    "dev": "kyt dev",
+    "build": "kyt build",
+    "start": "kyt start",
+    "lint": "kyt lint -- --ext vue,js,json",
+    "lint-style": "kyt lint-style",
+    "test": "kyt test",
+    "karma": "karma start karma.conf.js"
+  },
+  "kyt": {
+    "version": "^0.2.0",
+    "files": [
+      ".eslintrc.json"
+    ]
+  },
+  "dependencies": {
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
+    "babel-plugin-webpack-loaders": "^0.8.0",
+    "es6-promise": "^3.2.1",
+    "eslint-plugin-html": "^1.5.3",
+    "express": "^4.14.0",
+    "jsdom": "^9.7.1",
+    "kyt": "file:///Users/202586/Sites/test.nytimes.com/kyt",
+    "lru-cache": "^4.0.1",
+    "serialize-javascript": "^1.3.0",
+    "source-map-support": "^0.4.3",
+    "vue": "^2.0.0",
+    "vue-router": "^2.0.0",
+    "vue-server-renderer": "^2.0.0",
+    "vuex": "^2.0.0",
+    "vuex-router-sync": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.17.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-webpack": "^1.8.0",
+    "phantomjs": "^2.1.7",
+    "vue-loader": "^9.5.0"
+  }
+}

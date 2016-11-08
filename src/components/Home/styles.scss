@@ -1,0 +1,5 @@
+@import '../../assets/shared-styles/variables.scss';
+
+.paragraph + .paragraph {
+  padding-top: $padding;
+}
