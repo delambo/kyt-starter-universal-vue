@@ -1,7 +1,9 @@
 {
   "name": "kyt-starter-vue-universal",
+  "version": "0.0.1",
   "description": "A universal vue starter kyt",
-  "author": "Web Frameworks, NYTimes",
+  "author": "delambo",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "kyt dev",
     "build": "kyt build",
